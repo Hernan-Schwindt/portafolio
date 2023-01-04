@@ -1,0 +1,10 @@
+body header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  list-style: none; }
+  body header nav ul li {
+    padding: 12px; }
+    body header nav ul li i {
+      font-size: 25px; }
