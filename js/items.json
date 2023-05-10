@@ -1,0 +1,4 @@
+itemsProyecto = [
+    {img: 'img/proyectos/maternidadArgentina.png',lore: 'este es un proyecto realizado con las tecnologias html css js y sass'}
+    {}
+]

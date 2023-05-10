@@ -4,7 +4,7 @@
   box-sizing: border-box; }
 
 body {
-  background: linear-gradient(#22222296, #22222296), url(../img/fondo.jpg) no-repeat center center fixed;
+  background: url(../img/fondo.jpg) no-repeat center center fixed;
   background-size: cover;
   min-height: 100vh; }
   body header nav ul {
@@ -24,31 +24,57 @@ body {
     justify-content: center;
     height: calc(100vh - 145px);
     width: 100%; }
-    body main #main {
+    body main #mainVh {
       display: flex;
-      align-items: center;
-      background: url(../img/fondo_main.jpg) no-repeat center center;
+      background-color: #006bc7bf;
       width: 100%;
-      height: 50vh;
+      min-height: 50vh;
+      max-height: 80vh;
       max-width: 1300px;
       border-radius: 20px;
       margin-left: 10vh;
       margin-right: 10vh; }
-      body main #main .infoPersonal {
+      body main #mainVh .infoPersonal {
         width: 65%;
         padding: 5px; }
-        body main #main .infoPersonal h1 {
+        body main #mainVh .infoPersonal h1 {
           font-size: 2.7em;
           text-align: center;
           color: #ffffff; }
-        body main #main .infoPersonal p {
+        body main #mainVh .infoPersonal p {
           font-size: 1.4em;
           text-align: center;
           color: #ffffffb7; }
-      body main #main .imgPersonal {
+      body main #mainVh .imgPersonal {
         padding: 5px; }
-        body main #main .imgPersonal img {
+        body main #mainVh .imgPersonal img {
           width: 100%;
           height: 80%;
           min-width: 300px;
           max-width: 380px; }
+      body main #mainVh .projects {
+        width: 100%; }
+        body main #mainVh .projects h1 {
+          text-align: center;
+          padding: 15px 0px; }
+        body main #mainVh .projects .boxProjects {
+          width: 100%;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          padding: 0px 10px; }
+          body main #mainVh .projects .boxProjects .boxEspacio {
+            padding: 5px 5px; }
+            body main #mainVh .projects .boxProjects .boxEspacio a {
+              text-decoration: none; }
+              body main #mainVh .projects .boxProjects .boxEspacio a .itemsProjects {
+                max-width: 220px;
+                background-color: #0a3b66f5;
+                border: 100px;
+                border-radius: 20px; }
+                body main #mainVh .projects .boxProjects .boxEspacio a .itemsProjects img {
+                  padding: 10px;
+                  max-width: 220px; }
+                body main #mainVh .projects .boxProjects .boxEspacio a .itemsProjects p {
+                  color: aliceblue;
+                  padding: 15px 5px; }
